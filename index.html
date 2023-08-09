@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja do Brasa</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <section class="header">
+            <nav class="header__navbar flex">
+                <section class="navbar__menu flex-between">
+                    <section class="navbar__menu-home flex">
+                        <g>
+                            <g> <!-- <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z"></path> -->
+                                <path
+                                    d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z"
+                                    stroke=#34B0BE> </path>
+                            </g>
+                        </g> </svg>
+                        <a href="#home">
+                            <p class="menu-home-store"> DOBRASA</p>
+                        </a>
+                    </section>
+                    <section class="navbar__menu-option flex">
+                        <a href="#home">
+                            <p class="navbar__menu-option">Início</p>
+                        </a>
+                        <a href="#products">
+                            <p class="navbar__menu-option">Produtos</p>
+                        </a>
+                    </section>
+                </section>
+
+                <section class="navbar__car">
+                    <section class="navbar__car-items flex">
+                        <section class="navbar__car-items-mode">
+                            <i class='bx bx-moon'></i>
+                        </section>
+                        <section class="navbar__car-items-bag">
+                            <i class='bx bx-shopping-bag'>
+                                <span class="cartAmount"></span>
+                            </i>
+
+                        </section>
+                    </section>
+                </section>
+            </nav>
+        </section>
+
+        <section class="body">
+
+            <section id="home" class="body__home">
+                <section id="home" class="body__home-screen1">
+                    <section class="home__details flex">
+                        <section class="home__details-item">
+                            <section class="home__details-item-info flex">
+                                <h1 class="details-info-title">Nova Coleção de <br /> MOLETOM 2023</h1>
+                                <p class="details-info-paragraph">Última chegada do novo moletom Hanes Midweight
+                                    Crewneck da série 2022, com um design moderno.</p>
+                                <p class="details-info-price"><i class='bx bxs-badge-dollar'></i> 14,00</p>
+                            </section>
+
+                            <section class="home__details-item-buttons flex">
+                                <button class="discover">Descobrir</button>
+                                <button class="add-car">ADICIONAR AO CARRINHO</button>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="home__products">
+                        <img src="./src/img/img/home.png" alt="Coleções 2023">
+                    </section>
+                </section>
+
+            </section>
+
+            <section id="products" class="body__products flex">
+                <section class="product__search">
+                    <section class="product__search-categories" data-filter="all">
+                        <h3 class="categories-name">Mostrar Todos</h3>
+                        <p class="categories-details">Mostrar todos os produtos</p>
+                    </section>
+                    <section class="product__search-categories" data-filter=".filter-0">
+                        <h3 class="categories-name">Moletom</h3>
+                        <p class="categories-details"># Produtos</p>
+                    </section>
+                    <section class="product__search-categories" data-filter=".filter-1">
+                        <h3 class="categories-name">Moletom Rocky</h3>
+                        <p class="categories-details"># Produtos</p>
+                    </section>
+                    <section class="product__search-categories" data-filter=".filter-2">
+                        <h3 class="categories-name">Camisas</h3>
+                        <p class="categories-details"># Produtos</p>
+                    </section>
+                </section>
+
+                <section class="product__details"></section>
+                <section class="contentCart">
+                    <section class="contentCart__close">
+                        <p><i class='bx bx-x'></i></p>
+                    </section>
+                    <section class="cartProduct"></section>
+                    <section class="cartTotal"></section>
+                </section>
+            </section>
+        </section>
+
+        <footer class="footer">
+            <section class="footer__information">
+                <h3 class="footer__information-title">Nossa informação</h3>
+                <br>
+                <p class="footer__information-info">Navegantes, Santa Catarina <br>
+                    - Brasil</p>
+            </section>
+            <section class="footer__information">
+                <h3 class="footer__information-title">Sobre Nós</h3>
+                <br>
+                <p class="footer__information-info">Centro de Suporte</p>
+                <p class="footer__information-info">Suporte ao Cliente</p>
+                <p class="footer__information-info">Sobre Nós</p>
+                <p class="footer__information-info">Direitos Autorais</p>
+            </section>
+            <section class="footer__information">
+                <h3 class="footer__information-title">Produto</h3>
+                <br>
+                <p class="footer__information-info">Moletom</p>
+                <p class="footer__information-info">Moletom Rocky</p>
+                <p class="footer__information-info">Camisolas</p>
+            </section>
+            <section class="footer__information">
+                <h3 class="footer__information-title">Social</h3>
+                <br>
+                <section class="footer__information-social flex">
+                    <p class="footer__information-info"><a href="http://facebook.com" target="_blank"><i
+                                class='bx bxl-facebook-circle'></i></a></p>
+                    <p class="footer__information-info"><a href="http://instagram.com" target="_blank"><i
+                                class='bx bxl-instagram-alt'></i></a></p>
+                    <p class="footer__information-info"><a href="http://twitter.com" target="_blank"><i
+                                class='bx bxl-twitter'></i></a></p>
+                </section>
+            </section>
+        </footer>
+
+        <section class="footer__bottom">
+            <hr>
+            <p><i class='bx bxs-copyright'></i> Todos os direitos reservados</p>
+        </section>
+
+    </section>
+
+    <script src="./src/js/mixitup.min.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
