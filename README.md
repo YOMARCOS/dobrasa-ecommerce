@@ -2,6 +2,8 @@
 
 Bem-vindo à documentação da Loja do Brasa, um site de comércio eletrônico onde você pode explorar e comprar uma variedade de produtos, incluindo moletons e camisolas. Este projeto é uma representação fictícia de uma loja online, desenvolvida como um exercício de design e desenvolvimento front-end.
 
+Acesse a aplicação em ➡️ https://yomarcos.github.io/dobrasa-ecommerce/#home
+
 <h2 style="color: green">Página Inicial</h2>
 
 <h3>Características</h3>
